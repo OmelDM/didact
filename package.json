@@ -2,6 +2,10 @@
   "name": "didact",
   "version": "0.0.1",
   "description": "simplified implementation of react js. inspired by https://github.com/pomber/didact",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/OmelDM/didact.git"
+  },
   "scripts": {
     "build": "webpack",
     "test": "echo \"Error: no test specified\" && exit 1"
