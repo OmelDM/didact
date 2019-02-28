@@ -1,0 +1,17 @@
+{
+  "name": "didact",
+  "version": "0.0.1",
+  "description": "simplified implementation of react js. inspired by https://github.com/pomber/didact",
+  "scripts": {
+    "build": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dmytro Omelchuk",
+  "license": "ISC",
+  "devDependencies": {
+    "awesome-typescript-loader": "^5.2.1",
+    "typescript": "^3.3.3333",
+    "webpack": "^4.29.5",
+    "webpack-cli": "^3.2.3"
+  }
+}
