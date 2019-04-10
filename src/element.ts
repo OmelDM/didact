@@ -8,7 +8,9 @@ export interface DidactProps {
     children?: Array<DidactElement>,
 }
 
-export interface DidactElement {
+export type DidactElement = DidactElementInterface | string;
+
+export interface DidactElementInterface {
     type: DidactElementTyps,
     props: DidactProps,
 }

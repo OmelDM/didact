@@ -13,8 +13,12 @@ const element = {
             {type: DidactElementTyps.DIV, props: {
                     children: [
                         {type: DidactElementTyps.A, props: {}},
-                        {type: DidactElementTyps.DIV, props: {}},
-                        {type: DidactElementTyps.DIV, props: {}}
+                        {type: DidactElementTyps.SPAN, props: {
+                            children: ['Text me more']
+                        }},
+                        {type: DidactElementTyps.SPAN, props: {
+                            children: ['Follow the white rabbit']
+                        }}
                     ]
                 }}
         ]
